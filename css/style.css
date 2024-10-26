@@ -6,3 +6,15 @@ body {
     
 }
 
+h1 {
+    text-align: center;
+    color: #3d2b1f;
+    margin-top: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #4a3327;
+    margin-top: 20px;
+}
+
