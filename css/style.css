@@ -76,14 +76,48 @@ nav a:visited {
     font-weight: bold;
 }
 
-.summary-heading {
-    font-size: 24px; /* Размер шрифта */
-    text-align: center; /* Центрирование текста */
-    padding: 10px; /* Отступы вокруг текста */
-    margin-bottom: 10px; /* Отступ снизу */
-}
-
 details {
-    margin-bottom: 20px; /* Отступ снизу */
+    max-width: 800px; /* Максимальная ширина блока */
+    margin: 20px auto; /* Центрирует блок по горизонтали */
+    
 }
 
+details summary {
+    font-weight: bold; /* Жирный шрифт */
+    padding: 10px; /* Отступы */
+    background-color: #F1D7E9; 
+}
+
+
+.about {
+    padding: 20px; /* Отступ внутри для эстетичности */
+    align-items: center; /* Выравнивание по центру по вертикали */
+}
+
+.about hr {
+    color: #603333;
+}
+.about p {
+    color: #4a3327; /* Цвет текста */
+    margin: 0; /* Убирает отступы у абзаца */
+}
+
+
+img[src="img/igr1.png"] {
+    border-radius: 50%;
+}
+
+a {
+    color: #8b5e4e;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #4a8b5e;
+}
+
+a:visited {
+    color: #4b658b;
+}
