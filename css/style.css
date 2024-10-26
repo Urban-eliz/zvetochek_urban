@@ -121,3 +121,13 @@ a:hover {
 a:visited {
     color: #4b658b;
 }
+
+.rukodelie img{
+    text-align: center;
+    padding: 10px;
+}
+
+.vypechka img{
+    text-align: center;
+    padding: 10px;
+}
