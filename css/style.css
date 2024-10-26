@@ -1,6 +1,8 @@
 body {
-    background-image: url('img/fon.jpg');
-    h1{
-          text-align: center
-      }
+    background-color: #FDDDE2;
+}
+
+h1{
+    text-align: center;
+    color: brown;
 }
