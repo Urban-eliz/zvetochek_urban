@@ -53,3 +53,37 @@ nav a:visited {
     color: #603333;
 }
 
+.me {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    text-align: center;
+}
+ p{
+    text-align: left;
+ }
+
+ ul{
+    text-align: left;
+ }
+
+ .me p:first-letter {
+    color: #8b5e4e;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.summary-heading {
+    font-size: 24px; /* Размер шрифта */
+    text-align: center; /* Центрирование текста */
+    padding: 10px; /* Отступы вокруг текста */
+    margin-bottom: 10px; /* Отступ снизу */
+}
+
+details {
+    margin-bottom: 20px; /* Отступ снизу */
+}
+
