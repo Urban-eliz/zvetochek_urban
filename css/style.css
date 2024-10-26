@@ -18,3 +18,38 @@ h2 {
     margin-top: 20px;
 }
 
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #c7a799;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none; /* Убирает маркеры списка */
+    display: flex; /* Устанавливает горизонтальное расположение элементов списка */
+    margin: 0; /* Убирает отступы вокруг списка */
+    padding: 0; /* Убирает внутренние отступы */
+}
+
+nav li {
+    margin: 0 10px; /* Отступы между элементами списка */
+}
+
+nav a {
+    text-decoration: none;
+    color: #8b5e4e;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #4a8b5e;
+}
+
+nav a:visited {
+    color: #603333;
+}
+
