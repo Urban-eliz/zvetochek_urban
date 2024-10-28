@@ -1,32 +1,22 @@
-
-.header-container {
+.shap {
     position: relative;
-    width: 100%;
-    height: auto;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.header-image {
-    width: 100%;
-    height: auto;
-}
-
-.text-overlay {
+.shap h1 {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     color: white;
+    font-size: 45px;
     text-align: center;
 }
 
-.text-overlay h1 {
-    font-size: 36px;
-    font-weight: bold;
-    margin: 0;
-}
-
-.text-overlay p {
-    font-size: 16px;
-    margin-top: 10px;
+.shap p {
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    top: 60%;
+    transform: translateY(-50%);
 }
