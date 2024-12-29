@@ -27,14 +27,14 @@ nav {
 }
 
 nav ul {
-    list-style: none; /* Убирает маркеры списка */
-    display: flex; /* Устанавливает горизонтальное расположение элементов списка */
-    margin: 0; /* Убирает отступы вокруг списка */
-    padding: 0; /* Убирает внутренние отступы */
+    list-style: none; 
+    display: flex; 
+    margin: 0;
+    padding: 0; 
 }
 
 nav li {
-    margin: 0 10px; /* Отступы между элементами списка */
+    margin: 0 10px;
 }
 
 nav a {
@@ -77,29 +77,29 @@ nav a:visited {
 }
 
 details {
-    max-width: 800px; /* Максимальная ширина блока */
-    margin: 20px auto; /* Центрирует блок по горизонтали */
+    max-width: 800px; 
+    margin: 20px auto; 
     
 }
 
 details summary {
-    font-weight: bold; /* Жирный шрифт */
-    padding: 10px; /* Отступы */
+    font-weight: bold; 
+    padding: 10px; 
     background-color: #F1D7E9; 
 }
 
 
 .about {
-    padding: 20px; /* Отступ внутри для эстетичности */
-    align-items: center; /* Выравнивание по центру по вертикали */
+    padding: 20px; 
+    align-items: center; 
 }
 
 .about hr {
     color: #603333;
 }
 .about p {
-    color: #4a3327; /* Цвет текста */
-    margin: 0; /* Убирает отступы у абзаца */
+    color: #4a3327; 
+    margin: 0;
 }
 
 
@@ -139,117 +139,5 @@ a:visited {
 .imeg img{
     text-align: center;
     padding: 10px;
-}
-
-body{
-    background-color: rgb(200, 210, 213);
-}
-
-*{
-    font-family: 'Roboto', Arial, sans-serif;
-}
-
-h1{
-    color: rgb(169, 16, 16);
-}
-
-.nav-list{
-    font-size: 12px;
-}
-
-ul{
-    list-style: none;
-    padding: 10px;
-}
-
-[href="#"]{
-    font-weight: bold;
-}
-
-.nav-list .link {
-    color: rgb(9, 88, 9); 
-}
-
-.nav-list .special-link {
-    color: rgb(16, 16, 88); 
-}
-
-.nav-list .link-yl{
-    color: rgb(247, 247, 66); 
-}
-
-.content .post h2{
-    font-size: 20px;
-}
-
-.content .post p{
-    font-style: italic;
-}
-
-
-#first-post{
-    color: rgb(255, 162, 0);
-}
-
-.post{
-    color: purple;
-}
-
-.sidebar .widget h3{
-    color: rgb(235, 112, 186);
-}
-
-.color-list .highlighted{
-    color: rgb(0, 0, 0);
-}
-
-.color-list li:nth-child(1) {
-    color: rgb(109, 107, 107);
-}
-
-.color-list li:nth-child(2) {
-    color: rgb(102, 52, 52);
-}
-
-.sidebar .widget-important-widget {
-    color: rgb(127, 15, 65);
-}
-
-[action="#"] {
-    text-align: center;
-    padding: 24px;
-    padding-bottom: 32px;
-}
-
-.form {    
-    background-color: rgb(248, 242, 245);
-}
-
-.form label {
-    color: rgb(142, 137, 139);
-    margin-bottom: 8px;
-}
-
-.form input[type="text"] {
-    color: white; 
-    background-color: rgb(82, 56, 56);
-    border: 1px solid rgb(209, 174, 174);
-    padding: 10px;
-    border-radius: 8px;
-}
-
-.submit-btn {
-    color: rgb(13, 9, 9); 
-    background-color: rgb(251, 246, 246); 
-    padding: 10px 20px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    font-weight: bold;
-    transition: background-color 0.3s;
-}
-
-.submit-btn:hover {
-    background-color: rgb(188, 181, 181);
 }
 
